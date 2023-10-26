@@ -1,0 +1,6 @@
+com\esprit\freelancer\FreelancersModel.class
+com\esprit\freelancer\FreelancersServiceImpl.class
+com\esprit\freelancer\FreelancersInfoApplication.class
+com\esprit\freelancer\FreelancersService.class
+com\esprit\freelancer\FreelancersRepository.class
+com\esprit\freelancer\FreelancersController.class
