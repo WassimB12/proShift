@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Conges-MS" />
+        <module name="Contact-MS" />
+        <module name="Freelancer-MS" />
+        <module name="Projet-MS" />
+        <module name="offre_emploi-MS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Conges-MS" target="1.8" />
+      <module name="Contact-MS" target="1.8" />
+      <module name="Freelancer-MS" target="1.8" />
+      <module name="offre_emploi-MS" target="1.8" />
+      <module name="Projet-MS" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Conges-MS" options="-parameters" />
+      <module name="Contact-MS" options="-parameters" />
+      <module name="Freelancer-MS" options="-parameters" />
+      <module name="Projet-MS" options="-parameters" />
+      <module name="offre_emploi-MS" options="-parameters" />
+    </option>
+  </component>
+</project>

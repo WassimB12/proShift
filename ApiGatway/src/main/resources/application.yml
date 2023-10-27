@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      routes:
+        - id: contact-service
+          uri: lb://contact-service
+          predicates:
+            - Path=/contacts/**
+          filters:
+            - StripPrefix=1

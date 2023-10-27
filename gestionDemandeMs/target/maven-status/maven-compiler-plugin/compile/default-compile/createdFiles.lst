@@ -1,0 +1,8 @@
+com\esprit\demande\model\Demande.class
+com\esprit\demande\model\Demande$StatusDemande.class
+com\esprit\equipe\gestionDemandeMsApplication.class
+com\esprit\demande\service\IDemande.class
+com\esprit\demande\repository\DemandeRepository.class
+com\esprit\demande\service\DemandeService.class
+com\esprit\demande\model\Demande$TypeDemande.class
+com\esprit\demande\controller\DemandeController.class

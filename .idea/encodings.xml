@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Conges-MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Conges-MS/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Contact-MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Contact-MS/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Freelancer-MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Freelancer-MS/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Offre_emploi-MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Offre_emploi-MS/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Projet_MS/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Projet_MS/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

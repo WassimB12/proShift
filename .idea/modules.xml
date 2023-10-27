@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Conges-MS/Conges-MS.iml" filepath="$PROJECT_DIR$/Conges-MS/Conges-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Contact-MS/Contact-MS.iml" filepath="$PROJECT_DIR$/Contact-MS/Contact-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Freelancer-MS/Freelancer-MS.iml" filepath="$PROJECT_DIR$/Freelancer-MS/Freelancer-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projet_MS/Projet-MS.iml" filepath="$PROJECT_DIR$/Projet_MS/Projet-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/freelancerproject-main.iml" filepath="$PROJECT_DIR$/.idea/freelancerproject-main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Offre_emploi-MS/offre_emploi-MS.iml" filepath="$PROJECT_DIR$/Offre_emploi-MS/offre_emploi-MS.iml" />
+    </modules>
+  </component>
+</project>
