@@ -3,16 +3,24 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Conges-MS/pom.xml" />
-        <option value="$PROJECT_DIR$/Projet_MS/pom.xml" />
-        <option value="$PROJECT_DIR$/Contact-MS/pom.xml" />
-        <option value="$PROJECT_DIR$/Freelancer-MS/pom.xml" />
-        <option value="$PROJECT_DIR$/Offre_emploi-MS/pom.xml" />
+        <option value="$PROJECT_DIR$/ProShift/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGatway/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionUserMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionTacheMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionProjetMs/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionDemandeMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionEquipeMs/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
     <option name="id" value="jpab" />
+  </component>
+  <component name="SwUserDefinedSpecifications">
+    <option name="specTypeByUrl">
+      <map />
+    </option>
   </component>
 </project>

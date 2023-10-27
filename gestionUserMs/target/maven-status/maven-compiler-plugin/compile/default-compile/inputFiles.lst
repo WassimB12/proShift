@@ -1,0 +1,16 @@
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\gestionUserMsApplication.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\repository\UserRepository.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\service\UserService.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\request\LoginRequest.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\response\AuthResponse.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\response\UserInfoResponse.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\config\AuthUtils.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\config\SecurityConfig.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\controller\UserController.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\request\NewPasswordRequest.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\response\MessageResponse.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\request\SignupRequest.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\controller\AuthController.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\entity\User.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\service\IUserService.java
+C:\Users\mryam\OneDrive\Desktop\ProShift projet spring angular stage 4eme nodeit\backend\gestionUserMs\src\main\java\com\exemple\gestionUserMs\payload\request\ChangePasswordRequest.java

@@ -1,7 +1,7 @@
-package com.esprit.demande.repository;
+package com.esprit.equipe.repository;
 
 
-import com.esprit.demande.model.Demande;
+import com.esprit.equipe.model.Demande;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

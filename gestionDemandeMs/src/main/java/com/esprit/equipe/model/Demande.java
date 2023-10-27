@@ -1,4 +1,4 @@
-package com.esprit.demande.model;
+package com.esprit.equipe.model;
 
 
 
@@ -30,9 +30,6 @@ public class Demande {
         dateCreation = new Date();
     }
 
-    public Demande() {
-    }
-
     public Demande(Long id, TypeDemande type, Date dateCreation, Date dateDebut, Date dateFin, String motif, int nombreJours, StatusDemande status, Long userId) {
         this.id = id;
         this.type = type;
@@ -43,6 +40,9 @@ public class Demande {
         this.nombreJours = nombreJours;
         this.status = status;
         this.userId = userId;
+    }
+
+    public Demande() {
     }
 
     public Long getId() {

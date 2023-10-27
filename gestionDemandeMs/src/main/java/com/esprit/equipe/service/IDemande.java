@@ -1,6 +1,7 @@
-package com.esprit.demande.service;
+package com.esprit.equipe.service;
 
-import com.esprit.demande.model.Demande;
+
+import com.esprit.equipe.model.Demande;
 
 import java.util.List;
 

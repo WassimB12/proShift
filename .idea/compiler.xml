@@ -2,32 +2,47 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Conges-MS" />
-        <module name="Contact-MS" />
-        <module name="Freelancer-MS" />
-        <module name="Projet-MS" />
-        <module name="offre_emploi-MS" />
+        <module name="gestionEquipeMs" />
+        <module name="gestionDemandeMs" />
+        <module name="ProShift" />
+        <module name="ApiGatway" />
+        <module name="gestionUserMs" />
+        <module name="gestionProjetMs" />
+        <module name="eurekaServer" />
+        <module name="gestionTacheMs" />
+        <module name="Freelancer-MS (1)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Conges-MS" target="1.8" />
-      <module name="Contact-MS" target="1.8" />
+      <module name="ApiGatway" target="1.8" />
+      <module name="eurekaServer" target="1.8" />
       <module name="Freelancer-MS" target="1.8" />
-      <module name="offre_emploi-MS" target="1.8" />
-      <module name="Projet-MS" target="1.8" />
+      <module name="Freelancer-MS (1)" target="1.8" />
+      <module name="gestionDemandeMs" target="1.8" />
+      <module name="gestionEquipeMs" target="1.8" />
+      <module name="gestionProjetMs" target="1.8" />
+      <module name="gestionTacheMs" target="1.8" />
+      <module name="gestionUserMs" target="1.8" />
+      <module name="ProShift" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="Conges-MS" options="-parameters" />
-      <module name="Contact-MS" options="-parameters" />
+      <module name="ApiGatway" options="-parameters" />
       <module name="Freelancer-MS" options="-parameters" />
-      <module name="Projet-MS" options="-parameters" />
-      <module name="offre_emploi-MS" options="-parameters" />
+      <module name="Freelancer-MS (1)" options="-parameters" />
+      <module name="ProShift" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="gestionDemandeMs" options="-parameters" />
+      <module name="gestionEquipeMs" options="-parameters" />
+      <module name="gestionProjetMs" options="-parameters" />
+      <module name="gestionTacheMs" options="-parameters" />
+      <module name="gestionUserMs" options="-parameters" />
     </option>
   </component>
 </project>

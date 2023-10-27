@@ -1,8 +1,8 @@
-package com.esprit.demande.controller;
+package com.esprit.equipe.controller;
 
 
-import com.esprit.demande.model.Demande;
-import com.esprit.demande.service.IDemande;
+import com.esprit.equipe.model.Demande;
+import com.esprit.equipe.service.IDemande;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

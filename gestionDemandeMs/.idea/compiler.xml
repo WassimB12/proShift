@@ -7,13 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gestionEquipeMs" />
-        <module name="gestionDemandeMs" />
+        <module name="Freelancer-MS" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="gestionDemandeMs" options="-parameters" />
+      <module name="Freelancer-MS" options="-parameters" />
       <module name="gestionEquipeMs" options="-parameters" />
     </option>
   </component>

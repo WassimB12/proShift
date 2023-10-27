@@ -1,9 +1,7 @@
-package com.esprit.demande.service;
+package com.esprit.equipe.service;
 
-
-
-import com.esprit.demande.model.Demande;
-import com.esprit.demande.repository.DemandeRepository;
+import com.esprit.equipe.model.Demande;
+import com.esprit.equipe.repository.DemandeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
