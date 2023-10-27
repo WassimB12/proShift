@@ -1,0 +1,87 @@
+version: "2.2"
+services:
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:22.0.4
+    container_name: keycloak
+    ports:
+      - "8180:8180"
+    environment:
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_DB: dev-mem
+    command: start-dev
+    healthcheck:
+      test: "curl -f http://localhost:8180/admin || exit 1"
+
+  mysql:
+    image: mysql:8.0.33
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=projet
+      - MYSQL_PASSWORD=
+    ports:
+      - "3307:3306"
+    volumes:
+      - /var/lib/mysql
+
+  mongos:
+    image: mongo:latest
+    ports:
+      - "27017:27017"
+
+  Eureka:
+    container_name: EurekaServer
+    build: ./eurekaServer
+    ports:
+      - "8761:8761"
+    hostname: eurekaserver
+    image: "eureka-server"
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaServer:8761/eureka/
+
+  gateway:
+    build: ./ApiGatway
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaServer:8761/eureka/
+    ports:
+      - "8080:8080"
+    image: gateway-server
+
+  gestionDemandeMs:
+    build: ./gestionDemandeMs
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaServer:8761/eureka/
+    ports:
+      - "8082:8082"
+    image: gestion-demande-ms
+
+  gestionEquipeMs:
+    build: ./gestionEquipeMs
+    environment:
+      - eureka.client.serviceUrl.defaultZone=http://eurekaserver:8761/eureka/
+    ports:
+      - "8083:8083"
+    image: gestion-equipe-ms
+
+  gestionProjetMs:
+    build: ./gestionProjetMs
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysql:3306/projet?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - eureka.client.serviceUrl.defaultZone=http://eurekaServer:8761/eureka/
+    ports:
+      - "8084:8084"
+    image: gestion-projet-ms
+    
+  gestionTacheMs:
+    build: ./gestionTacheMs
+    environment:
+      - spring.datasource.url=jdbc:mysql://mysql:3306/projet?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=root
+      - eureka.client.serviceUrl.defaultZone=http://eurekaServer:8761/eureka/
+    ports:
+      - "8085:8085"
+    image: gestion-tache-ms

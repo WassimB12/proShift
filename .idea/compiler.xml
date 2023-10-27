@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gestionEquipeMs" />
+        <module name="ProShift" />
+        <module name="Freelancer-MS" />
+        <module name="ApiGatway" />
+        <module name="gestionUserMs" />
+        <module name="gestionProjetMs" />
+        <module name="eurekaServer" />
+        <module name="gestionTacheMs" />
+        <module name="Freelancer-MS (1)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ApiGatway" target="1.8" />
+      <module name="eurekaServer" target="1.8" />
+      <module name="Freelancer-MS" target="1.8" />
+      <module name="Freelancer-MS (1)" target="1.8" />
+      <module name="gestionDemandeMs" target="17" />
+      <module name="gestionEquipeMs" target="17" />
+      <module name="gestionProjetMs" target="17" />
+      <module name="gestionTacheMs" target="17" />
+      <module name="gestionUserMs" target="17" />
+      <module name="ProShift" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGatway" options="-parameters" />
+      <module name="Freelancer-MS" options="-parameters" />
+      <module name="Freelancer-MS (1)" options="-parameters" />
+      <module name="ProShift" options="-parameters" />
+      <module name="eurekaServer" options="-parameters" />
+      <module name="gestionDemandeMs" options="-parameters" />
+      <module name="gestionEquipeMs" options="-parameters" />
+      <module name="gestionProjetMs" options="-parameters" />
+      <module name="gestionTacheMs" options="-parameters" />
+      <module name="gestionUserMs" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ApiGatway/ApiGatway.iml" filepath="$PROJECT_DIR$/ApiGatway/ApiGatway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionEquipeMs/Freelancer-MS.iml" filepath="$PROJECT_DIR$/gestionEquipeMs/Freelancer-MS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionDemandeMs/Freelancer-MS (1).iml" filepath="$PROJECT_DIR$/gestionDemandeMs/Freelancer-MS (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProShift/ProShift.iml" filepath="$PROJECT_DIR$/ProShift/ProShift.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/backend.iml" filepath="$PROJECT_DIR$/.idea/backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaServer/eurekaServer.iml" filepath="$PROJECT_DIR$/eurekaServer/eurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionEquipeMs/gestionEquipeMs.iml" filepath="$PROJECT_DIR$/gestionEquipeMs/gestionEquipeMs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionProjetMs/gestionProjetMs.iml" filepath="$PROJECT_DIR$/gestionProjetMs/gestionProjetMs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionTacheMs/gestionTacheMs.iml" filepath="$PROJECT_DIR$/gestionTacheMs/gestionTacheMs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestionUserMs/gestionUserMs.iml" filepath="$PROJECT_DIR$/gestionUserMs/gestionUserMs.iml" />
+    </modules>
+  </component>
+</project>

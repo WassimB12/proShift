@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ProShift/pom.xml" />
+        <option value="$PROJECT_DIR$/ApiGatway/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionUserMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionTacheMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionEquipeMs/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionProjetMs/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/gestionDemandeMs/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
+</project>
