@@ -1,8 +1,0 @@
-com\esprit\equipe\service\IDemande.class
-com\esprit\equipe\model\Demande$StatusDemande.class
-com\esprit\equipe\model\Demande.class
-com\esprit\equipe\gestionDemandeMsApplication.class
-com\esprit\equipe\service\DemandeService.class
-com\esprit\equipe\model\Demande$TypeDemande.class
-com\esprit\equipe\repository\DemandeRepository.class
-com\esprit\equipe\controller\DemandeController.class
